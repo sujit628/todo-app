@@ -17,6 +17,7 @@ function TodoForm({ addTodo }) {
         className="flex-1 p-2 border rounded"
         value={value}
         onChange={e => setValue(e.target.value)}
+        placeholder='task..'
       />
       <button
         type="submit"
